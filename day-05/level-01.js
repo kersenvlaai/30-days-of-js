@@ -143,5 +143,5 @@ printArray(newArray);
 // console.log(itCompanies);
 
 // 23. Remove all IT companies
-itCompanies.shift();
-console.log(itCompanies.splice());
+// itCompanies.shift();
+// console.log(itCompanies.splice());

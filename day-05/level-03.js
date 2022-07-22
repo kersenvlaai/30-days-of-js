@@ -40,3 +40,15 @@ console.log(
 );
 
 // 3. Divide the countries array into two equal arrays if it is even. If countries array is not even , one more country for the first half.
+console.log(`middle countries is ${middleCountries}`);
+let middleCountriesPlusOne = 0;
+
+if (middleCountries % 1 != 0) {
+  middleCountriesPlusOne = Math.ceil(middleCountries);
+}
+
+const firstCountries = countries.splice(0, middleCountriesPlusOne);
+const secondCountries = countries.splice(-middleCountriesPlusOne);
+
+console.log(firstCountries);
+console.log(secondCountries);

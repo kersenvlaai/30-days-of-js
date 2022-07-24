@@ -132,3 +132,79 @@ const webTechs = [
 // console.log(`the sum of all numbers from 0 to 100 is ${sum}`);
 
 // 11. Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds.
+
+// const even = [];
+// const odd = [];
+
+// for (i = 0; i <= 100; i++) {
+//   if (i % 2 == 0) {
+//     even.push(i);
+//   } else {
+//     odd.push(i);
+//   }
+// }
+
+// function sumArrayNum(arr) {
+//   let sum = 0;
+//   for (i = 0; i < arr.length; i++) {
+//     sum = sum + arr[i];
+//   }
+//   return sum;
+// }
+
+// console.log(`The sum of all evens from 0 to 100 is ${sumArrayNum(
+//   even
+// )}. And the sum of all odds from 0 to 100 is ${sumArrayNum(odd)}
+// `);
+
+// 12. Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds. Print sum of evens and sum of odds as array
+
+// const even = [];
+// const odd = [];
+// const sum = [];
+
+// for (i = 0; i <= 100; i++) {
+//   if (i % 2 == 0) {
+//     even.push(i);
+//   } else {
+//     odd.push(i);
+//   }
+// }
+
+// function sumArrayNum(arr) {
+//   let sum = 0;
+//   for (i = 0; i < arr.length; i++) {
+//     sum = sum + arr[i];
+//   }
+//   return sum;
+// }
+
+// sum[0] = sumArrayNum(even);
+// sum[1] = sumArrayNum(odd);
+
+// console.log(sum);
+
+// 13. Develop a small script which generate array of 5 random numbers
+// const arr = [];
+
+// for (let i = 0; i < 5; i++) {
+//   arr.push(Math.floor(Math.random() * 9 + 1));
+// }
+
+// console.log(arr);
+
+// 14. Develop a small script which generate array of 5 random numbers and the numbers must be unique
+
+for (let i = 0; i < 5; i++) {
+  arr.push(Math.floor(Math.random() * 9 + 1));
+}
+
+console.log(arr);
+
+// 15. Develop a small script which generate a six characters random id:
+
+function randomGenerator(length) {
+  let result = "";
+  const characters =
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+}
